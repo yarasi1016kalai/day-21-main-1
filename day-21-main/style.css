@@ -1,0 +1,106 @@
+
+h1{
+    
+    color: whitesmoke;
+    height: 60px;
+    text-align: center;
+    color: aqua;
+    font-size: 40px;
+}
+.container-fluid{
+    background-image: url("https://focusmalaysia.my/wp-content/uploads/covid19_open-graph.jpg");
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+}
+#name{
+    font-size: 30px;
+    
+}
+#clk{
+    font-size: 45px;
+    margin-left: 45%;
+    border-radius: 20px;
+    color: rgb(255, 0, 30);
+
+}
+#output{
+    color: orangered;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+#output1{
+    color:orangered;
+    margin-left: 30%;
+}
+label{
+    color: coral;
+    font-size: 30px;
+    margin-left: 25%;
+}
+span{
+    color: green;
+    font-size: 35px;
+    margin-left: 30%;
+    font-weight:bold;
+    border: 2px solid black;
+    background-color: black;
+}
+
+ 
+
+@media only screen and (max-width: 480px) {
+    
+    body{
+        
+    }
+    
+    h1{
+      width:auto;
+      color:greenyellow ;
+    }
+
+    label{
+        width:auto;
+        margin: 20px;
+        
+    }
+    input{
+      justify-content: center;
+      margin-left: 25px;
+    }
+    #clk{
+      flex-wrap: wrap;
+    }
+    #output{
+       text-align: center;
+    }
+    #output1{
+        text-align: center;
+    }
+    span{
+        margin-left: 10px;
+    }
+    
+  }
+  @media (min-width:481px) and (max-width:901px){
+    h1{
+        width: auto;
+        color: crimson;
+    }
+    label{
+        width: auto;
+        color: oldlace;
+        margin-left: 120px;
+        justify-content: center;
+    }
+    input{
+      margin-left: 50px;
+    }
+    span{
+        margin-left: 20px;
+    }
+
+
+  }
